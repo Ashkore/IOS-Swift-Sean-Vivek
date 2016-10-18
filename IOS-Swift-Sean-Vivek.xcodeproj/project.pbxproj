@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F3154B41DB6B85500C96E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3154B31DB6B85500C96E70 /* AppDelegate.swift */; };
+		2F3154B61DB6B85500C96E70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3154B51DB6B85500C96E70 /* ViewController.swift */; };
+		2F3154B91DB6B85500C96E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3154B71DB6B85500C96E70 /* Main.storyboard */; };
+		2F3154BB1DB6B85500C96E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3154BA1DB6B85500C96E70 /* Assets.xcassets */; };
+		2F3154BE1DB6B85500C96E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3154BC1DB6B85500C96E70 /* LaunchScreen.storyboard */; };
+		2F3154C91DB6B85600C96E70 /* IOS_Swift_Sean_VivekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3154C81DB6B85600C96E70 /* IOS_Swift_Sean_VivekTests.swift */; };
+		2F3154D41DB6B85600C96E70 /* IOS_Swift_Sean_VivekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3154D31DB6B85600C96E70 /* IOS_Swift_Sean_VivekUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F3154C51DB6B85500C96E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F3154A81DB6B85500C96E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F3154AF1DB6B85500C96E70;
+			remoteInfo = "IOS-Swift-Sean-Vivek";
+		};
+		2F3154D01DB6B85600C96E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F3154A81DB6B85500C96E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F3154AF1DB6B85500C96E70;
+			remoteInfo = "IOS-Swift-Sean-Vivek";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F3154B01DB6B85500C96E70 /* IOS-Swift-Sean-Vivek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-Swift-Sean-Vivek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3154B31DB6B85500C96E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F3154B51DB6B85500C96E70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F3154B81DB6B85500C96E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F3154BA1DB6B85500C96E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F3154BD1DB6B85500C96E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F3154BF1DB6B85500C96E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3154C41DB6B85500C96E70 /* IOS-Swift-Sean-VivekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-Swift-Sean-VivekTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3154C81DB6B85600C96E70 /* IOS_Swift_Sean_VivekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Swift_Sean_VivekTests.swift; sourceTree = "<group>"; };
+		2F3154CA1DB6B85600C96E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3154CF1DB6B85600C96E70 /* IOS-Swift-Sean-VivekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-Swift-Sean-VivekUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3154D31DB6B85600C96E70 /* IOS_Swift_Sean_VivekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Swift_Sean_VivekUITests.swift; sourceTree = "<group>"; };
+		2F3154D51DB6B85600C96E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F3154AD1DB6B85500C96E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3154C11DB6B85500C96E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3154CC1DB6B85600C96E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F3154A71DB6B85500C96E70 = {
+			isa = PBXGroup;
+			children = (
+				2F3154B21DB6B85500C96E70 /* IOS-Swift-Sean-Vivek */,
+				2F3154C71DB6B85500C96E70 /* IOS-Swift-Sean-VivekTests */,
+				2F3154D21DB6B85600C96E70 /* IOS-Swift-Sean-VivekUITests */,
+				2F3154B11DB6B85500C96E70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F3154B11DB6B85500C96E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F3154B01DB6B85500C96E70 /* IOS-Swift-Sean-Vivek.app */,
+				2F3154C41DB6B85500C96E70 /* IOS-Swift-Sean-VivekTests.xctest */,
+				2F3154CF1DB6B85600C96E70 /* IOS-Swift-Sean-VivekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F3154B21DB6B85500C96E70 /* IOS-Swift-Sean-Vivek */ = {
+			isa = PBXGroup;
+			children = (
+				2F3154B31DB6B85500C96E70 /* AppDelegate.swift */,
+				2F3154B51DB6B85500C96E70 /* ViewController.swift */,
+				2F3154B71DB6B85500C96E70 /* Main.storyboard */,
+				2F3154BA1DB6B85500C96E70 /* Assets.xcassets */,
+				2F3154BC1DB6B85500C96E70 /* LaunchScreen.storyboard */,
+				2F3154BF1DB6B85500C96E70 /* Info.plist */,
+			);
+			path = "IOS-Swift-Sean-Vivek";
+			sourceTree = "<group>";
+		};
+		2F3154C71DB6B85500C96E70 /* IOS-Swift-Sean-VivekTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F3154C81DB6B85600C96E70 /* IOS_Swift_Sean_VivekTests.swift */,
+				2F3154CA1DB6B85600C96E70 /* Info.plist */,
+			);
+			path = "IOS-Swift-Sean-VivekTests";
+			sourceTree = "<group>";
+		};
+		2F3154D21DB6B85600C96E70 /* IOS-Swift-Sean-VivekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F3154D31DB6B85600C96E70 /* IOS_Swift_Sean_VivekUITests.swift */,
+				2F3154D51DB6B85600C96E70 /* Info.plist */,
+			);
+			path = "IOS-Swift-Sean-VivekUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F3154AF1DB6B85500C96E70 /* IOS-Swift-Sean-Vivek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3154D81DB6B85600C96E70 /* Build configuration list for PBXNativeTarget "IOS-Swift-Sean-Vivek" */;
+			buildPhases = (
+				2F3154AC1DB6B85500C96E70 /* Sources */,
+				2F3154AD1DB6B85500C96E70 /* Frameworks */,
+				2F3154AE1DB6B85500C96E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IOS-Swift-Sean-Vivek";
+			productName = "IOS-Swift-Sean-Vivek";
+			productReference = 2F3154B01DB6B85500C96E70 /* IOS-Swift-Sean-Vivek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F3154C31DB6B85500C96E70 /* IOS-Swift-Sean-VivekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3154DB1DB6B85600C96E70 /* Build configuration list for PBXNativeTarget "IOS-Swift-Sean-VivekTests" */;
+			buildPhases = (
+				2F3154C01DB6B85500C96E70 /* Sources */,
+				2F3154C11DB6B85500C96E70 /* Frameworks */,
+				2F3154C21DB6B85500C96E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F3154C61DB6B85500C96E70 /* PBXTargetDependency */,
+			);
+			name = "IOS-Swift-Sean-VivekTests";
+			productName = "IOS-Swift-Sean-VivekTests";
+			productReference = 2F3154C41DB6B85500C96E70 /* IOS-Swift-Sean-VivekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F3154CE1DB6B85600C96E70 /* IOS-Swift-Sean-VivekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3154DE1DB6B85600C96E70 /* Build configuration list for PBXNativeTarget "IOS-Swift-Sean-VivekUITests" */;
+			buildPhases = (
+				2F3154CB1DB6B85600C96E70 /* Sources */,
+				2F3154CC1DB6B85600C96E70 /* Frameworks */,
+				2F3154CD1DB6B85600C96E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F3154D11DB6B85600C96E70 /* PBXTargetDependency */,
+			);
+			name = "IOS-Swift-Sean-VivekUITests";
+			productName = "IOS-Swift-Sean-VivekUITests";
+			productReference = 2F3154CF1DB6B85600C96E70 /* IOS-Swift-Sean-VivekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F3154A81DB6B85500C96E70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				TargetAttributes = {
+					2F3154AF1DB6B85500C96E70 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					2F3154C31DB6B85500C96E70 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F3154AF1DB6B85500C96E70;
+					};
+					2F3154CE1DB6B85600C96E70 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F3154AF1DB6B85500C96E70;
+					};
+				};
+			};
+			buildConfigurationList = 2F3154AB1DB6B85500C96E70 /* Build configuration list for PBXProject "IOS-Swift-Sean-Vivek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F3154A71DB6B85500C96E70;
+			productRefGroup = 2F3154B11DB6B85500C96E70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F3154AF1DB6B85500C96E70 /* IOS-Swift-Sean-Vivek */,
+				2F3154C31DB6B85500C96E70 /* IOS-Swift-Sean-VivekTests */,
+				2F3154CE1DB6B85600C96E70 /* IOS-Swift-Sean-VivekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F3154AE1DB6B85500C96E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3154BE1DB6B85500C96E70 /* LaunchScreen.storyboard in Resources */,
+				2F3154BB1DB6B85500C96E70 /* Assets.xcassets in Resources */,
+				2F3154B91DB6B85500C96E70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3154C21DB6B85500C96E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3154CD1DB6B85600C96E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F3154AC1DB6B85500C96E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3154B61DB6B85500C96E70 /* ViewController.swift in Sources */,
+				2F3154B41DB6B85500C96E70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3154C01DB6B85500C96E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3154C91DB6B85600C96E70 /* IOS_Swift_Sean_VivekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3154CB1DB6B85600C96E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3154D41DB6B85600C96E70 /* IOS_Swift_Sean_VivekUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F3154C61DB6B85500C96E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F3154AF1DB6B85500C96E70 /* IOS-Swift-Sean-Vivek */;
+			targetProxy = 2F3154C51DB6B85500C96E70 /* PBXContainerItemProxy */;
+		};
+		2F3154D11DB6B85600C96E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F3154AF1DB6B85500C96E70 /* IOS-Swift-Sean-Vivek */;
+			targetProxy = 2F3154D01DB6B85600C96E70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F3154B71DB6B85500C96E70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F3154B81DB6B85500C96E70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F3154BC1DB6B85500C96E70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F3154BD1DB6B85500C96E70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F3154D61DB6B85600C96E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F3154D71DB6B85600C96E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F3154D91DB6B85600C96E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IOS-Swift-Sean-Vivek/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AITP.IOS-Swift-Sean-Vivek";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2F3154DA1DB6B85600C96E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IOS-Swift-Sean-Vivek/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AITP.IOS-Swift-Sean-Vivek";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2F3154DC1DB6B85600C96E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "IOS-Swift-Sean-VivekTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AITP.IOS-Swift-Sean-VivekTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS-Swift-Sean-Vivek.app/IOS-Swift-Sean-Vivek";
+			};
+			name = Debug;
+		};
+		2F3154DD1DB6B85600C96E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "IOS-Swift-Sean-VivekTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AITP.IOS-Swift-Sean-VivekTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS-Swift-Sean-Vivek.app/IOS-Swift-Sean-Vivek";
+			};
+			name = Release;
+		};
+		2F3154DF1DB6B85600C96E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "IOS-Swift-Sean-VivekUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AITP.IOS-Swift-Sean-VivekUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "IOS-Swift-Sean-Vivek";
+			};
+			name = Debug;
+		};
+		2F3154E01DB6B85600C96E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "IOS-Swift-Sean-VivekUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AITP.IOS-Swift-Sean-VivekUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "IOS-Swift-Sean-Vivek";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F3154AB1DB6B85500C96E70 /* Build configuration list for PBXProject "IOS-Swift-Sean-Vivek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3154D61DB6B85600C96E70 /* Debug */,
+				2F3154D71DB6B85600C96E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F3154D81DB6B85600C96E70 /* Build configuration list for PBXNativeTarget "IOS-Swift-Sean-Vivek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3154D91DB6B85600C96E70 /* Debug */,
+				2F3154DA1DB6B85600C96E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F3154DB1DB6B85600C96E70 /* Build configuration list for PBXNativeTarget "IOS-Swift-Sean-VivekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3154DC1DB6B85600C96E70 /* Debug */,
+				2F3154DD1DB6B85600C96E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F3154DE1DB6B85600C96E70 /* Build configuration list for PBXNativeTarget "IOS-Swift-Sean-VivekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3154DF1DB6B85600C96E70 /* Debug */,
+				2F3154E01DB6B85600C96E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F3154A81DB6B85500C96E70 /* Project object */;
+}
