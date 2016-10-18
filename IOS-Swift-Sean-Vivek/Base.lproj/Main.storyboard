@@ -9,7 +9,7 @@
         <!--New Idea-->
         <scene sceneID="0cd-kU-U5H">
             <objects>
-                <viewController id="iBJ-x0-NpJ" sceneMemberID="viewController">
+                <viewController id="iBJ-x0-NpJ" customClass="NewIdeaViewController" customModule="IOS_Swift_Sean_Vivek" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZO7-n6-klX"/>
                         <viewControllerLayoutGuide type="bottom" id="KLK-jk-S2X"/>
@@ -73,6 +73,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="New Idea" id="dWP-I6-YIR"/>
+                    <connections>
+                        <outlet property="InsertDateTime" destination="lvY-hz-t7G" id="EVi-Rw-8Ii"/>
+                        <outlet property="insertDateTime" destination="lvY-hz-t7G" id="wH1-6k-pdF"/>
+                        <outlet property="tes" destination="I0j-mI-1le" id="XcT-O6-Pyl"/>
+                        <outlet property="test" destination="TsX-VO-wYq" id="vwD-sh-nmx"/>
+                        <outlet property="thhe" destination="BJy-EN-H8y" id="ZVu-hJ-35F"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z9G-0u-bgC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -109,7 +116,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="70m-1W-kFp" id="kWH-D7-y04">
-                                    <frame key="frameInset" width="375" height="44"/>
+                                    <frame key="frameInset" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
