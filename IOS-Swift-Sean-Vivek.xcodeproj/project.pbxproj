@@ -14,6 +14,7 @@
 		2F3154BE1DB6B85500C96E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3154BC1DB6B85500C96E70 /* LaunchScreen.storyboard */; };
 		2F3154C91DB6B85600C96E70 /* IOS_Swift_Sean_VivekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3154C81DB6B85600C96E70 /* IOS_Swift_Sean_VivekTests.swift */; };
 		2F3154D41DB6B85600C96E70 /* IOS_Swift_Sean_VivekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3154D31DB6B85600C96E70 /* IOS_Swift_Sean_VivekUITests.swift */; };
+		2F3154E21DB6BE5800C96E70 /* Plane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F3154E11DB6BE5800C96E70 /* Plane.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2F3154CF1DB6B85600C96E70 /* IOS-Swift-Sean-VivekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-Swift-Sean-VivekUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3154D31DB6B85600C96E70 /* IOS_Swift_Sean_VivekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Swift_Sean_VivekUITests.swift; sourceTree = "<group>"; };
 		2F3154D51DB6B85600C96E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3154E11DB6BE5800C96E70 /* Plane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Plane.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,13 @@
 		2F3154B21DB6B85500C96E70 /* IOS-Swift-Sean-Vivek */ = {
 			isa = PBXGroup;
 			children = (
+				2F3154E31DB6BE7C00C96E70 /* Asset Files */,
 				2F3154B31DB6B85500C96E70 /* AppDelegate.swift */,
-				2F3154B51DB6B85500C96E70 /* ViewController.swift */,
-				2F3154B71DB6B85500C96E70 /* Main.storyboard */,
 				2F3154BA1DB6B85500C96E70 /* Assets.xcassets */,
-				2F3154BC1DB6B85500C96E70 /* LaunchScreen.storyboard */,
 				2F3154BF1DB6B85500C96E70 /* Info.plist */,
+				2F3154BC1DB6B85500C96E70 /* LaunchScreen.storyboard */,
+				2F3154B71DB6B85500C96E70 /* Main.storyboard */,
+				2F3154B51DB6B85500C96E70 /* ViewController.swift */,
 			);
 			path = "IOS-Swift-Sean-Vivek";
 			sourceTree = "<group>";
@@ -123,6 +126,14 @@
 				2F3154D51DB6B85600C96E70 /* Info.plist */,
 			);
 			path = "IOS-Swift-Sean-VivekUITests";
+			sourceTree = "<group>";
+		};
+		2F3154E31DB6BE7C00C96E70 /* Asset Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F3154E11DB6BE5800C96E70 /* Plane.jpg */,
+			);
+			name = "Asset Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F3154E21DB6BE5800C96E70 /* Plane.jpg in Resources */,
 				2F3154BE1DB6B85500C96E70 /* LaunchScreen.storyboard in Resources */,
 				2F3154BB1DB6B85500C96E70 /* Assets.xcassets in Resources */,
 				2F3154B91DB6B85500C96E70 /* Main.storyboard in Resources */,
