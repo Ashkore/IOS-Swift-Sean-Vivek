@@ -14,7 +14,7 @@
 		2F3154BE1DB6B85500C96E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3154BC1DB6B85500C96E70 /* LaunchScreen.storyboard */; };
 		2F3154C91DB6B85600C96E70 /* IOS_Swift_Sean_VivekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3154C81DB6B85600C96E70 /* IOS_Swift_Sean_VivekTests.swift */; };
 		2F3154D41DB6B85600C96E70 /* IOS_Swift_Sean_VivekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3154D31DB6B85600C96E70 /* IOS_Swift_Sean_VivekUITests.swift */; };
-		2F3154E21DB6BE5800C96E70 /* Plane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F3154E11DB6BE5800C96E70 /* Plane.jpg */; };
+		D97E191C1DB6E0DF00F8D9DB /* Plane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D97E191B1DB6E0DF00F8D9DB /* Plane.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		2F3154CF1DB6B85600C96E70 /* IOS-Swift-Sean-VivekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-Swift-Sean-VivekUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3154D31DB6B85600C96E70 /* IOS_Swift_Sean_VivekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Swift_Sean_VivekUITests.swift; sourceTree = "<group>"; };
 		2F3154D51DB6B85600C96E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F3154E11DB6BE5800C96E70 /* Plane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Plane.jpg; sourceTree = SOURCE_ROOT; };
+		D97E191B1DB6E0DF00F8D9DB /* Plane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Plane.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,10 +131,26 @@
 		2F3154E31DB6BE7C00C96E70 /* Asset Files */ = {
 			isa = PBXGroup;
 			children = (
-				2F3154E11DB6BE5800C96E70 /* Plane.jpg */,
+				D97E19191DB6E0B700F8D9DB /* Classes */,
+				D97E191A1DB6E0B700F8D9DB /* Resources */,
 			);
 			name = "Asset Files";
 			sourceTree = "<group>";
+		};
+		D97E19191DB6E0B700F8D9DB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		D97E191A1DB6E0B700F8D9DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D97E191B1DB6E0DF00F8D9DB /* Plane.jpg */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -242,7 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F3154E21DB6BE5800C96E70 /* Plane.jpg in Resources */,
+				D97E191C1DB6E0DF00F8D9DB /* Plane.jpg in Resources */,
 				2F3154BE1DB6B85500C96E70 /* LaunchScreen.storyboard in Resources */,
 				2F3154BB1DB6B85500C96E70 /* Assets.xcassets in Resources */,
 				2F3154B91DB6B85500C96E70 /* Main.storyboard in Resources */,
@@ -516,6 +532,7 @@
 				2F3154DA1DB6B85600C96E70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F3154DB1DB6B85600C96E70 /* Build configuration list for PBXNativeTarget "IOS-Swift-Sean-VivekTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +541,7 @@
 				2F3154DD1DB6B85600C96E70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F3154DE1DB6B85600C96E70 /* Build configuration list for PBXNativeTarget "IOS-Swift-Sean-VivekUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +550,7 @@
 				2F3154E01DB6B85600C96E70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
