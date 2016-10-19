@@ -50,13 +50,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Figureout place holder text." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Z0-j3-aEG">
-                                <frame key="frameInset" minX="16" minY="230" width="343" height="299"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0j-mI-1le">
                                 <frame key="frameInset" minX="16" minY="537" width="343" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -69,17 +62,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Figureout place holder text." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Z0-j3-aEG">
+                                <frame key="frameInset" minX="16" minY="241" width="343" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="New Idea" id="dWP-I6-YIR"/>
-                    <connections>
-                        <outlet property="InsertDateTime" destination="lvY-hz-t7G" id="EVi-Rw-8Ii"/>
-                        <outlet property="insertDateTime" destination="lvY-hz-t7G" id="wH1-6k-pdF"/>
-                        <outlet property="tes" destination="I0j-mI-1le" id="XcT-O6-Pyl"/>
-                        <outlet property="test" destination="TsX-VO-wYq" id="vwD-sh-nmx"/>
-                        <outlet property="thhe" destination="BJy-EN-H8y" id="ZVu-hJ-35F"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z9G-0u-bgC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
