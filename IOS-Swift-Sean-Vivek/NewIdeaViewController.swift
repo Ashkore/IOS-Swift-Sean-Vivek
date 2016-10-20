@@ -10,8 +10,6 @@ import UIKit
 
 class NewIdeaViewController: UIViewController {
 
-    @IBOutlet var newIdeaScrollView: UIScrollView!
-    
     @IBOutlet var _newIdeaName: UITextField!
     
     override func viewDidLoad()
