@@ -15,9 +15,6 @@
 		2F3154C91DB6B85600C96E70 /* IOS_Swift_Sean_VivekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3154C81DB6B85600C96E70 /* IOS_Swift_Sean_VivekTests.swift */; };
 		2F3154D41DB6B85600C96E70 /* IOS_Swift_Sean_VivekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3154D31DB6B85600C96E70 /* IOS_Swift_Sean_VivekUITests.swift */; };
 		2F34E7C81DB6E29E00EF6671 /* NewIdeaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34E7C71DB6E29E00EF6671 /* NewIdeaViewController.swift */; };
-		2F34E7CA1DB86C3000EF6671 /* PastIdeaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34E7C91DB86C3000EF6671 /* PastIdeaTableViewController.swift */; };
-		2F34E7D31DB876C100EF6671 /* Idea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34E7D21DB876C100EF6671 /* Idea.swift */; };
-		2F34E7D51DB8782500EF6671 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34E7D41DB8782500EF6671 /* SampleData.swift */; };
 		D97E191C1DB6E0DF00F8D9DB /* Plane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D97E191B1DB6E0DF00F8D9DB /* Plane.jpg */; };
 /* End PBXBuildFile section */
 
@@ -53,10 +50,6 @@
 		2F3154D31DB6B85600C96E70 /* IOS_Swift_Sean_VivekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Swift_Sean_VivekUITests.swift; sourceTree = "<group>"; };
 		2F3154D51DB6B85600C96E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F34E7C71DB6E29E00EF6671 /* NewIdeaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewIdeaViewController.swift; path = "IOS-Swift-Sean-Vivek/NewIdeaViewController.swift"; sourceTree = SOURCE_ROOT; };
-		2F34E7C91DB86C3000EF6671 /* PastIdeaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PastIdeaTableViewController.swift; path = "IOS-Swift-Sean-Vivek/PastIdeaTableViewController.swift"; sourceTree = SOURCE_ROOT; };
-		2F34E7CE1DB8720B00EF6671 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		2F34E7D21DB876C100EF6671 /* Idea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Idea.swift; path = "IOS-Swift-Sean-Vivek/Idea.swift"; sourceTree = SOURCE_ROOT; };
-		2F34E7D41DB8782500EF6671 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleData.swift; path = "IOS-Swift-Sean-Vivek/SampleData.swift"; sourceTree = SOURCE_ROOT; };
 		D97E191B1DB6E0DF00F8D9DB /* Plane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Plane.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +85,6 @@
 				2F3154C71DB6B85500C96E70 /* IOS-Swift-Sean-VivekTests */,
 				2F3154D21DB6B85600C96E70 /* IOS-Swift-Sean-VivekUITests */,
 				2F3154B11DB6B85500C96E70 /* Products */,
-				2F34E7CD1DB8720A00EF6671 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,21 +139,10 @@
 			name = "Asset Files";
 			sourceTree = "<group>";
 		};
-		2F34E7CD1DB8720A00EF6671 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2F34E7CE1DB8720B00EF6671 /* libsqlite3.tbd */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		D97E19191DB6E0B700F8D9DB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				2F34E7C71DB6E29E00EF6671 /* NewIdeaViewController.swift */,
-				2F34E7C91DB86C3000EF6671 /* PastIdeaTableViewController.swift */,
-				2F34E7D21DB876C100EF6671 /* Idea.swift */,
-				2F34E7D41DB8782500EF6671 /* SampleData.swift */,
 			);
 			path = Classes;
 			sourceTree = SOURCE_ROOT;
@@ -309,10 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F3154B61DB6B85500C96E70 /* ViewController.swift in Sources */,
-				2F34E7D51DB8782500EF6671 /* SampleData.swift in Sources */,
 				2F34E7C81DB6E29E00EF6671 /* NewIdeaViewController.swift in Sources */,
-				2F34E7D31DB876C100EF6671 /* Idea.swift in Sources */,
-				2F34E7CA1DB86C3000EF6671 /* PastIdeaTableViewController.swift in Sources */,
 				2F3154B41DB6B85500C96E70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
